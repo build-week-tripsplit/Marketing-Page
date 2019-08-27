@@ -1,5 +1,3 @@
-# Marketing-Page
-
 Proposal
 
 	Description

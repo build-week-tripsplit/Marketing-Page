@@ -1,87 +1,29 @@
-.container header {
-    top: 0;
-      padding: 30px 5px 10px 5px;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 30px;
-  }
-  
-  header nav {
-      display: flex;
-      flex-grow: 1;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 1.3rem;
-  }
-  
-  header img {
-    margin-left: 90px;
-  }
-  
-   header nav a {
+// Navigation Styles here
+.header-nav {
+    a {
       text-decoration: none;
+      color: @font-color;
+      font-size: 1.6rem;
+      padding: 10px;
+      margin-right:18px;
+      
+      &:hover {
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: saturate(@eastern-blue, 5%);
+        color: white;
+      }
+    }
+  
+    @media @mobile {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-left: 10px;
+  
+      a {
+        margin-right: 0px;
+      }
+    }
   }
-
-  @media @tablet{
-    .container {
-        width: 95%;
-      }
-      header {
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: 30px;
-      }
-    
-      header img {
-        margin: 0px;
-        padding-left: 16px;
-      }
-    
-      header nav {
-        margin: 39px 0px;
-        padding: 0px 25px 0px 10px;
-        align-self: stretch;
-      }
-    
-      .index .head img {
-        display: none;
-      }
-    
-      .index .head .head-text {
-        width: 100%;
-        padding-left: 20px;
-      }
-    
-      .index .head-text button {
-        margin-top: 10px;
-      }
-    
-      .index .main-content .text-content {
-        padding-left: 12px;
-      }
-    
-      .worker{
-        display: none;
-      }
-    }
-
-
-
-  @media @mobile{
-    header {
-      flex-direction: column-reverse;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-  
-    header img {
-      margin: 0px;
-      padding-left: 16px;
-    }
-  
-    header nav {
-      margin: 39px 0px;
-      padding: 0px 25px 0px 10px;
-      align-self: stretch;
-    }
-}
