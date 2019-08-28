@@ -268,7 +268,6 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #f9fbfc;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -297,7 +296,6 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #f9fbfc;
   display: flex;
   justify-content: space-between;
 }
