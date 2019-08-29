@@ -1,0 +1,193 @@
+/* Landing page Styles */
+
+#entrance {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/background2.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #entrance {
+    background-attachment: fixed;
+  }
+}
+
+@media @tabletw {
+  #entrance {
+    background: url(/images/tablet-background800.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media @tableth {
+  #entrance {
+    background: url(/images/tablet-background.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media @mobile {
+  #entrance {
+    background: url(/images/mobile-background.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
+
+#entrance:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#entrance .entranceText {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#entrance span {
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 56px;
+  color: gold;
+  padding-bottom: 20px;
+}
+
+@media @tabletw {
+  #entrance span {
+     color: skyblue;
+  }
+}
+
+@media @tableth {
+  #entrance span {
+      color: red;
+  }
+}
+
+@media @mobile {
+  #entrance span {
+      color: chartreuse;
+  }
+}
+
+#entrance h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: gold;
+  font-family: "Fascinate", cursive;
+}
+
+@media (max-width: 768px) {
+  #entrance h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media @tabletw {
+  #entrance h1 {
+     color: skyblue;
+  }
+}
+
+@media @tableth {
+  #entrance h1 {
+      color: red;
+  }
+}
+
+@media @mobile {
+  #entrance h1 {
+      color: chartreuse;
+  }
+}
+
+#entrance h2 {
+  color: gold;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #entrance h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media @tabletw {
+  #entrance h2 {
+     color: skyblue;
+  }
+}
+
+@media @tableth {
+  #entrance h2 {
+      color: red;
+  }
+}
+
+@media @mobile {
+  #entrance h2 {
+      color: chartreuse;
+  }
+}
+
+#entrance .enterButton {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid gold;
+  color: gold;
+  text-decoration: none;
+}
+
+@media @tabletw {
+  #entrance .enterButton {
+    border: 2px solid skyblue;
+     color: skyblue;
+  }
+}
+
+@media @tableth {
+  #entrance .enterButton {
+    border: 2px solid red;
+      color: red;
+  }
+}
+
+@media @mobile {
+  #entrance .enterButton {
+    border: 2px solid chartreuse;
+      color: chartreuse;
+  }
+}
+
+#entrance .enterButton:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
