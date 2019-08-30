@@ -232,6 +232,7 @@ img {
 }
 .home .content-intro {
   border-bottom: 1px solid black;
+  background-color: #f9fbfc;
 }
 .home .content-intro img {
   margin-bottom: 30px;
@@ -241,10 +242,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #f9fbfc;
 }
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+  padding-top: 10rem;
 }
 .home .content-section .img-content {
   width: 48%;
